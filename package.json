@@ -1,0 +1,31 @@
+{
+  "name": "projeto_financas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --loader ts-node/esm src/index.ts",
+    "build": "tsc",
+    "start": "node dist/main/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "gitignore": "^0.7.0",
+    "mssql": "^12.2.0",
+    "reflect-metadata": "^0.2.2",
+    "tedious": "^19.2.1",
+    "typeorm": "^0.3.28"
+  }
+}
